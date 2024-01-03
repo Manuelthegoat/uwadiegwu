@@ -45,18 +45,24 @@ const Home = () => {
 
           <section class="about-text">
             <p>
-              I'm Creative Director and UI/UX Designer from Sydney, Australia,
-              working in web development and print media. I enjoy turning
-              complex problems into simple, beautiful and intuitive designs.
+              Hello! My name is Uwadiegwu Emmanuel, fondly known as manuel, and
+              I'm thrilled to have the opportunity to introduce myself as a
+              front-end developer. With a strong background in web development
+              and a passion for creating intuitive user experiences, I believe
+              my skills can bring tremendous value to your company. I have
+              extensive experience in frontend development, with a major focus
+              on React.
             </p>
 
             <p>
-              My job is to build your website so that it is functional and
-              user-friendly but at the same time attractive. Moreover, I add
-              personal touch to your product and make sure that is eye-catching
-              and easy to use. My aim is to bring across your message and
-              identity in the most creative way. I created web design for many
-              famous brand companies.
+              I possess a deep understanding of the React ecosystem, including
+              React Router, Redux, and React Hooks. My expertise extends to
+              HTML, CSS, and JavaScript, React Native and so on allowing me to
+              build responsive and visually appealing user interfaces.
+              Additionally, I'm proficient in modern frontend tools and
+              libraries like Tailwind, Bootstrap webpack, Babel, and CSS
+              preprocessors, which enable me to streamline the development
+              process and enhance performance.
             </p>
           </section>
 
@@ -75,11 +81,10 @@ const Home = () => {
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+                  <h4 class="h4 service-item-title">Web development</h4>
 
                   <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
+                    High-quality development of sites at the professional level.
                   </p>
                 </div>
               </li>
@@ -94,10 +99,11 @@ const Home = () => {
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+                  <h4 class="h4 service-item-title">Web design</h4>
 
                   <p class="service-item-text">
-                    High-quality development of sites at the professional level.
+                    The most modern and high-quality design made at a
+                    professional level.
                   </p>
                 </div>
               </li>
@@ -112,7 +118,7 @@ const Home = () => {
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
+                  <h4 class="h4 service-item-title">Mobile apps development</h4>
 
                   <p class="service-item-text">
                     Professional development of applications for iOS and
@@ -124,25 +130,25 @@ const Home = () => {
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
-                    src="./assets/images/icon-photo.svg"
-                    alt="camera icon"
+                    src="./assets/images/icon-design.svg
+                  "
+                    alt="design icon"
                     width="40"
                   />
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Photography</h4>
+                  <h4 class="h4 service-item-title">Ecommerce</h4>
 
                   <p class="service-item-text">
-                    I make high-quality photos of any category at a professional
-                    level.
+                  High-quality development of sites at the professional level.
                   </p>
                 </div>
               </li>
             </ul>
           </section>
 
-          <section class="testimonials">
+        {/*  <section class="testimonials">
             <h3 class="h3 testimonials-title">Testimonials</h3>
 
             <ul class="testimonials-list has-scrollbar">
@@ -272,7 +278,7 @@ const Home = () => {
             </ul>
           </section>
 
-          <div class="modal-container" data-modal-container>
+           <div class="modal-container" data-modal-container>
             <div class="overlay" data-overlay></div>
 
             <section class="testimonials-modal">
@@ -313,66 +319,10 @@ const Home = () => {
               </div>
             </section>
           </div>
+*/}
+         
 
-          <section class="clients">
-            <h3 class="h3 clients-title">Clients</h3>
-
-            <ul class="clients-list has-scrollbar">
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-1-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-2-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-3-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-4-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-5-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./assets/images/logo-6-color.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
-            </ul>
-          </section>
+          
         </article>
       </div>
     </>

@@ -94,24 +94,24 @@ const Sidebar = () => {
       <ul class="social-list">
 
         <li class="social-item">
-          <a href="https://www.linkedin.com/in/codefunky/" class="social-link">
+          <a href="https://www.linkedin.com/in/codefunky/" target='_blank' class="social-link">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
         </li>
 
         <li class="social-item">
-          <a href="https://twitter.com/21issavage" class="social-link">
+          <a href="https://twitter.com/21issavage" target='_blank' class="social-link">
             <ion-icon name="logo-twitter"></ion-icon>
           </a>
         </li>
 
         <li class="social-item">
-          <a href="https://www.instagram.com/stunna4naija/" class="social-link">
+          <a href="https://www.instagram.com/stunna4naija/" target='_blank' class="social-link">
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
         </li>
         <li class="social-item">
-          <a href="https://github.com/Manuelthegoat" class="social-link">
+          <a href="https://github.com/Manuelthegoat" target='_blank' class="social-link">
             <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
