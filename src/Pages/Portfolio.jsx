@@ -55,17 +55,7 @@ const Portfolio = () => {
             </button>
           </li>
 
-          <li class="filter-item">
-            <button data-filter-btn>Web design</button>
-          </li>
-
-          <li class="filter-item">
-            <button data-filter-btn>Applications</button>
-          </li>
-
-          <li class="filter-item">
-            <button data-filter-btn>Web development</button>
-          </li>
+         
         </ul>
 
         <div class="filter-select-box">
@@ -104,22 +94,22 @@ const Portfolio = () => {
             data-filter-item
             data-category="web development"
           >
-            <a href="#">
+            <a href="/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
                 <img
-                  src="./assets/images/project-1.jpg"
+                  src="./assets/images/project-1.png"
                   alt="finance"
                   loading="lazy"
                 />
               </figure>
 
-              <h3 class="project-title">Finance</h3>
+              <h3 class="project-title">My Current Portfolio</h3>
 
-              <p class="project-category">Web development</p>
+              <p class="project-category">Portfolio | Frontend</p>
             </a>
           </li>
 
@@ -128,7 +118,7 @@ const Portfolio = () => {
             data-filter-item
             data-category="web development"
           >
-            <a href="#">
+            <a href="https://uwadiegwu.vercel.app/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
@@ -141,9 +131,9 @@ const Portfolio = () => {
                 />
               </figure>
 
-              <h3 class="project-title">Orizon</h3>
+              <h3 class="project-title">My Former Portfolio</h3>
 
-              <p class="project-category">Web development</p>
+              <p class="project-category">Portfolio | Frontend</p>
             </a>
           </li>
 
@@ -152,20 +142,20 @@ const Portfolio = () => {
             data-filter-item
             data-category="web design"
           >
-            <a href="#">
+            <a href="https://sparkmedia.vercel.app/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
                 <img
-                  src="./assets/images/project-3.jpg"
+                  src="./assets/images/project-3.png"
                   alt="fundo"
                   loading="lazy"
                 />
               </figure>
 
-              <h3 class="project-title">Fundo</h3>
+              <h3 class="project-title">SparkMovies</h3>
 
               <p class="project-category">Web design</p>
             </a>
@@ -176,7 +166,7 @@ const Portfolio = () => {
             data-filter-item
             data-category="applications"
           >
-            <a href="#">
+            <a href="https://janicenter.org/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
@@ -189,9 +179,9 @@ const Portfolio = () => {
                 />
               </figure>
 
-              <h3 class="project-title">Brawlhalla</h3>
+              <h3 class="project-title">Janicenter Africa</h3>
 
-              <p class="project-category">Applications</p>
+              <p class="project-category">Frontend</p>
             </a>
           </li>
 
@@ -200,7 +190,7 @@ const Portfolio = () => {
             data-filter-item
             data-category="web design"
           >
-            <a href="#">
+            <a href="https://salinaka-ecommerce.web.app/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
@@ -213,9 +203,9 @@ const Portfolio = () => {
                 />
               </figure>
 
-              <h3 class="project-title">DSM.</h3>
+              <h3 class="project-title">Salinaka</h3>
 
-              <p class="project-category">Web design</p>
+              <p class="project-category">Ecommerce</p>
             </a>
           </li>
 
@@ -224,7 +214,7 @@ const Portfolio = () => {
             data-filter-item
             data-category="web design"
           >
-            <a href="#">
+            <a href="https://commerce-js.netlify.app/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
@@ -237,9 +227,9 @@ const Portfolio = () => {
                 />
               </figure>
 
-              <h3 class="project-title">MetaSpark</h3>
+              <h3 class="project-title">Commerce js</h3>
 
-              <p class="project-category">Web design</p>
+              <p class="project-category">Ecommerce</p>
             </a>
           </li>
 
@@ -248,7 +238,7 @@ const Portfolio = () => {
             data-filter-item
             data-category="web development"
           >
-            <a href="#">
+            <a href="https://erglobalresources.com/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
@@ -261,9 +251,9 @@ const Portfolio = () => {
                 />
               </figure>
 
-              <h3 class="project-title">Summary</h3>
+              <h3 class="project-title">E&r Global Resources</h3>
 
-              <p class="project-category">Web development</p>
+              <p class="project-category">Frontend</p>
             </a>
           </li>
 
@@ -272,22 +262,22 @@ const Portfolio = () => {
             data-filter-item
             data-category="applications"
           >
-            <a href="#">
+            <a href="https://aformart.vercel.app/products">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
                 </div>
 
                 <img
-                  src="./assets/images/project-8.jpg"
+                  src="./assets/images/project-8.png"
                   alt="task manager"
                   loading="lazy"
                 />
               </figure>
 
-              <h3 class="project-title">Task Manager</h3>
+              <h3 class="project-title">Afor Mart</h3>
 
-              <p class="project-category">Applications</p>
+              <p class="project-category">Ecommerce</p>
             </a>
           </li>
 
@@ -296,7 +286,7 @@ const Portfolio = () => {
             data-filter-item
             data-category="web development"
           >
-            <a href="#">
+            <a href="https://codefunky.vercel.app/">
               <figure class="project-img">
                 <div class="project-item-icon-box">
                   <ion-icon name="eye-outline"></ion-icon>
@@ -309,9 +299,9 @@ const Portfolio = () => {
                 />
               </figure>
 
-              <h3 class="project-title">Arrival</h3>
+              <h3 class="project-title">Codefunky</h3>
 
-              <p class="project-category">Web development</p>
+              <p class="project-category">Portfolio | Frontend</p>
             </a>
           </li>
         </ul>
