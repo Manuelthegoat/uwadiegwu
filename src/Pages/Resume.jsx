@@ -57,42 +57,37 @@ const Resume = () => {
         <ol class="timeline-list">
           <li class="timeline-item">
             <h4 class="h4 timeline-item-title">
-              University school of the arts
+              Aptech Computer Education
             </h4>
 
-            <span>2007 — 2008</span>
+            <span>2020 — 2022</span>
 
             <p class="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias
-              exceptur.
+            Diploma in information Systems Management (DISM)
             </p>
           </li>
 
           <li class="timeline-item">
             <h4 class="h4 timeline-item-title">
-              New york academy of art
+              Youtube X Udemy
             </h4>
 
-            <span>2006 — 2007</span>
+            <span>2022 — date</span>
 
             <p class="timeline-text">
-              Ratione voluptatem sequi nesciunt, facere quisquams facere
-              menda ossimus, omnis voluptas assumenda est omnis..
+              different programming tutors on youtube and udemy
             </p>
           </li>
 
           <li class="timeline-item">
             <h4 class="h4 timeline-item-title">
-              High school of art and design
+              University Of Nigeria, Nsukka
             </h4>
 
-            <span>2002 — 2004</span>
+            <span>2023 — date</span>
 
             <p class="timeline-text">
-              Duis aute irure dolor in reprehenderit in voluptate, quila
-              voluptas mag odit aut fugit, sed consequuntur magni dolores
-              eos.
+              Computer Science Major
             </p>
           </li>
         </ol>
@@ -108,39 +103,23 @@ const Resume = () => {
         </div>
 
         <ol class="timeline-list">
+          
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Creative director</h4>
+            <h4 class="h4 timeline-item-title">Frontend engineer</h4>
 
-            <span>2015 — Present</span>
+            <span>2020 — 2023</span>
 
             <p class="timeline-text">
-              Nemo enim ipsam voluptatem blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et qvuas molestias
-              exceptur.
+              Techmint Africa
             </p>
           </li>
-
           <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Art director</h4>
+            <h4 class="h4 timeline-item-title">Fullstack Developer</h4>
 
-            <span>2013 — 2015</span>
+            <span>2022 — 2023</span>
 
             <p class="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias
-              exceptur.
-            </p>
-          </li>
-
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Web designer</h4>
-
-            <span>2010 — 2013</span>
-
-            <p class="timeline-text">
-              Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-              delenit atque corrupti, quos dolores et quas molestias
-              exceptur.
+              Codefunky Worldwide
             </p>
           </li>
         </ol>
@@ -152,7 +131,7 @@ const Resume = () => {
         <ul class="skills-list content-card">
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Web design</h5>
+              <h5 class="h5">Web Development</h5>
               <data value="80">80%</data>
             </div>
 
@@ -166,35 +145,21 @@ const Resume = () => {
 
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Graphic design</h5>
-              <data value="70">70%</data>
+              <h5 class="h5">Mobile App Development </h5>
+              <data value="75">75%</data>
             </div>
 
             <div class="skill-progress-bg">
               <div
                 class="skill-progress-fill"
-                style={{ width: "70%" }}
+                style={{ width: "75%" }}
               ></div>
             </div>
           </li>
 
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Branding</h5>
-              <data value="90">90%</data>
-            </div>
-
-            <div class="skill-progress-bg">
-              <div
-                class="skill-progress-fill"
-                style={{ width: "90%" }}
-              ></div>
-            </div>
-          </li>
-
-          <li class="skills-item">
-            <div class="title-wrapper">
-              <h5 class="h5">WordPress</h5>
+              <h5 class="h5">Backend Development</h5>
               <data value="50">50%</data>
             </div>
 
@@ -202,6 +167,20 @@ const Resume = () => {
               <div
                 class="skill-progress-fill"
                 style={{ width: "50%" }}
+              ></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Firebase As a backend service</h5>
+              <data value="60">60%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div
+                class="skill-progress-fill"
+                style={{ width: "60%" }}
               ></div>
             </div>
           </li>
