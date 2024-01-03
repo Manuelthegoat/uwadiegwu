@@ -12,7 +12,7 @@ const Sidebar = () => {
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+        <h1 class="name" title="Richard hanrick">Uwadiegwu <br/> Emmanuel</h1>
 
         <p class="title">Web developer</p>
       </div>
