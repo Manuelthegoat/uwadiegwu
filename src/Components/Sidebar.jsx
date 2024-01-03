@@ -40,7 +40,7 @@ const Sidebar = () => {
           <div class="contact-info">
             <p class="contact-title">Email</p>
 
-            <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+            <a href="mailto:uwadiegwu.emmanuel48@gmail.com" class="contact-link">uwadiegwu.emmanuel48@gmail.com</a>
           </div>
 
         </li>
@@ -54,7 +54,7 @@ const Sidebar = () => {
           <div class="contact-info">
             <p class="contact-title">Phone</p>
 
-            <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            <a href="tel:+2347088239725" class="contact-link">+234 (708) 823-9725</a>
           </div>
 
         </li>
@@ -68,7 +68,7 @@ const Sidebar = () => {
           <div class="contact-info">
             <p class="contact-title">Birthday</p>
 
-            <time datetime="1982-06-23">June 23, 1982</time>
+            <time datetime="1982-06-23">Nov 26, 2005</time>
           </div>
 
         </li>
@@ -82,7 +82,7 @@ const Sidebar = () => {
           <div class="contact-info">
             <p class="contact-title">Location</p>
 
-            <address>Sacramento, California, USA</address>
+            <address>Lagos, Nigeria</address>
           </div>
 
         </li>
@@ -94,20 +94,25 @@ const Sidebar = () => {
       <ul class="social-list">
 
         <li class="social-item">
-          <a href="#" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
+          <a href="https://www.linkedin.com/in/codefunky/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
           </a>
         </li>
 
         <li class="social-item">
-          <a href="#" class="social-link">
+          <a href="https://twitter.com/21issavage" class="social-link">
             <ion-icon name="logo-twitter"></ion-icon>
           </a>
         </li>
 
         <li class="social-item">
-          <a href="#" class="social-link">
+          <a href="https://www.instagram.com/stunna4naija/" class="social-link">
             <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://github.com/Manuelthegoat" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
           </a>
         </li>
 
