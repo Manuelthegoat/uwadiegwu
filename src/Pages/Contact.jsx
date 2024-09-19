@@ -24,11 +24,11 @@ const Contact = () => {
               </a>
             </li>
 
-            <li class="navbar-item">
+            {/* <li class="navbar-item">
               <a href="/blog" class="navbar-link" data-nav-link>
                 Blog
               </a>
-            </li>
+            </li> */}
 
             <li class="navbar-item">
               <a href="/contact" class="navbar-link active" data-nav-link>

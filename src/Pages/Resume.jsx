@@ -23,12 +23,12 @@ const Resume = () => {
           Portfolio
         </a>
       </li>
-
+{/* 
       <li class="navbar-item">
         <a href="/blog" class="navbar-link" data-nav-link>
           Blog
         </a>
-      </li>
+      </li> */}
 
       <li class="navbar-item">
         <a href="/contact" class="navbar-link" data-nav-link>
@@ -84,10 +84,10 @@ const Resume = () => {
               University Of Nigeria, Nsukka
             </h4>
 
-            <span>2023 — date</span>
+            <span>2022 — date (expected to graduate in 2026)</span>
 
             <p class="timeline-text">
-              Computer Science Major
+              Computer Science Major (4.0 cgpa)
             </p>
           </li>
         </ol>

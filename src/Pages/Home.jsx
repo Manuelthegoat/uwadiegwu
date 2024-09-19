@@ -23,12 +23,12 @@ const Home = () => {
                 Portfolio
               </a>
             </li>
-
+{/* 
             <li class="navbar-item">
               <a href="/blog" class="navbar-link" data-nav-link>
                 Blog
               </a>
-            </li>
+            </li> */}
 
             <li class="navbar-item">
               <a href="/contact" class="navbar-link" data-nav-link>
@@ -55,7 +55,7 @@ const Home = () => {
             </p>
 
             <p>
-              I possess a deep understanding of the React ecosystem, including
+              I possess a deep understanding of the React and Next js ecosystem, including
               React Router, Redux, and React Hooks. My expertise extends to
               HTML, CSS, and JavaScript, React Native and so on allowing me to
               build responsive and visually appealing user interfaces.

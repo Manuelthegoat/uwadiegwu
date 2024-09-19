@@ -8,7 +8,7 @@ const Sidebar = () => {
     <div class="sidebar-info">
 
       <figure class="avatar-box">
-        <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80"/>
+        <img src="./assets/images/rea-avatar.jpg" alt="Uwadiegwu Emmanuel" width="80"/>
       </figure>
 
       <div class="info-content">
