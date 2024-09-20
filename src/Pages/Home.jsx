@@ -23,7 +23,7 @@ const Home = () => {
                 Portfolio
               </a>
             </li>
-{/* 
+            {/* 
             <li class="navbar-item">
               <a href="/blog" class="navbar-link" data-nav-link>
                 Blog
@@ -52,17 +52,6 @@ const Home = () => {
               my skills can bring tremendous value to your company. I have
               extensive experience in frontend development, with a major focus
               on React.
-            </p>
-
-            <p>
-              I possess a deep understanding of the React and Next js ecosystem, including
-              React Router, Redux, and React Hooks. My expertise extends to
-              HTML, CSS, and JavaScript, React Native and so on allowing me to
-              build responsive and visually appealing user interfaces.
-              Additionally, I'm proficient in modern frontend tools and
-              libraries like Tailwind, Bootstrap webpack, Babel, and CSS
-              preprocessors, which enable me to streamline the development
-              process and enhance performance.
             </p>
           </section>
 
@@ -141,14 +130,26 @@ const Home = () => {
                   <h4 class="h4 service-item-title">Ecommerce</h4>
 
                   <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                    High-quality development of sites at the professional level.
                   </p>
                 </div>
               </li>
             </ul>
           </section>
+          <section class="about-text">
+            <p>
+              I possess a deep understanding of the React and Next js ecosystem,
+              including React Router, Redux, and React Hooks. My expertise
+              extends to HTML, CSS, and JavaScript, React Native and so on
+              allowing me to build responsive and visually appealing user
+              interfaces. Additionally, I'm proficient in modern frontend tools
+              and libraries like Tailwind, Bootstrap webpack, Babel, and CSS
+              preprocessors, which enable me to streamline the development
+              process and enhance performance.
+            </p>
+          </section>
 
-        {/*  <section class="testimonials">
+          {/*  <section class="testimonials">
             <h3 class="h3 testimonials-title">Testimonials</h3>
 
             <ul class="testimonials-list has-scrollbar">
@@ -319,10 +320,7 @@ const Home = () => {
               </div>
             </section>
           </div>
-*/}
-         
-
-          
+ */}
         </article>
       </div>
     </>
