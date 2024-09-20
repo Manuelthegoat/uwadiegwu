@@ -48,8 +48,8 @@ const Home = () => {
               Hello! My name is Uwadiegwu Emmanuel, fondly known as manuel, and
               I'm thrilled to have the opportunity to introduce myself as a
               front-end developer. With a strong background in web development
-              and a passion for creating intuitive user experiences, I believe
-              my skills can bring tremendous value to your company.<br /> I have
+              and a passion for creating intuitive user experiences.<br/> I believe
+              my skills can bring tremendous value to your company. I have
               extensive experience in frontend development, with a major focus
               on React.
             </p>
