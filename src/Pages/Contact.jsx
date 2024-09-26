@@ -1,49 +1,94 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    fullname: "",
+    email: "",
+    message: ""
+  });
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_skiz1ej", // Replace with your EmailJS service ID
+        "template_hufqcnd", // Replace with your EmailJS template ID
+        {
+          fullname: formData.fullname,
+          email: formData.email,
+          message: formData.message
+        },
+        "gEloG2FPZ44AIqbO5" // Replace with your EmailJS user ID
+      )
+      .then(
+        (response) => {
+          setIsSubmitted(true);
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Message sent successfully!");
+        },
+        (err) => {
+          setError(true)
+          console.error("Failed to send email:", err);
+        }
+      );
+  };
+
   return (
     <>
-      <div class="main-content">
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="/" class="navbar-link " data-nav-link>
+      <div className="main-content">
+        <nav className="navbar">
+          <ul className="navbar-list">
+            <li className="navbar-item">
+              <a href="/" className="navbar-link" data-nav-link>
                 About
               </a>
             </li>
 
-            <li class="navbar-item">
-              <a href="/resume" class="navbar-link" data-nav-link>
+            <li className="navbar-item">
+              <a href="/resume" className="navbar-link" data-nav-link>
                 Resume
               </a>
             </li>
 
-            <li class="navbar-item">
-              <a href="/portfolio" class="navbar-link" data-nav-link>
+            <li className="navbar-item">
+              <a href="/portfolio" className="navbar-link" data-nav-link>
                 Portfolio
               </a>
             </li>
 
-            {/* <li class="navbar-item">
-              <a href="/blog" class="navbar-link" data-nav-link>
+            {/* <li className="navbar-item">
+              <a href="/blog" className="navbar-link" data-nav-link>
                 Blog
               </a>
             </li> */}
 
-            <li class="navbar-item">
-              <a href="/contact" class="navbar-link active" data-nav-link>
+            <li className="navbar-item">
+              <a href="/contact" className="navbar-link active" data-nav-link>
                 Contact
               </a>
             </li>
           </ul>
         </nav>
 
-        <article class="contact active" data-page="contact">
+        <article className="contact active" data-page="contact">
           <header>
-            <h2 class="h2 article-title">Contact</h2>
+            <h2 className="h2 article-title">Contact</h2>
           </header>
 
-          <section class="mapbox" data-mapbox>
+          <section className="mapbox" data-mapbox>
             <figure>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15851.47415584222!2d3.34896815!3d6.6632093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1704284998603!5m2!1sen!2sng"
@@ -54,16 +99,18 @@ const Contact = () => {
             </figure>
           </section>
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+          <section className="contact-form">
+            <h3 className="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
-              <div class="input-wrapper">
+            <form onSubmit={sendEmail} className="form" data-form>
+              <div className="input-wrapper">
                 <input
                   type="text"
                   name="fullname"
-                  class="form-input"
+                  className="form-input"
                   placeholder="Full name"
+                  value={formData.fullname}
+                  onChange={handleChange}
                   required
                   data-form-input
                 />
@@ -71,8 +118,10 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  class="form-input"
+                  className="form-input"
                   placeholder="Email address"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                   data-form-input
                 />
@@ -80,17 +129,26 @@ const Contact = () => {
 
               <textarea
                 name="message"
-                class="form-input"
+                className="form-input"
                 placeholder="Your Message"
+                value={formData.message}
+                onChange={handleChange}
                 required
                 data-form-input
               ></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
+              <button className="form-btn" type="submit" data-form-btn>
                 <ion-icon name="paper-plane"></ion-icon>
                 <span>Send Message</span>
               </button>
             </form>
+
+            {isSubmitted && (
+              <p className="success-message">Your message has been sent!</p>
+            )}
+            {error && (
+              <p className="error-message">oops... something went wrong</p>
+            )}
           </section>
         </article>
       </div>
