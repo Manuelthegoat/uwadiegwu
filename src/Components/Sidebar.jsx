@@ -12,9 +12,9 @@ const Sidebar = () => {
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Richard hanrick">Uwadiegwu <br/> Emmanuel</h1>
+        <h1 class="name" title="Uwadiegwu Emmanuel">Uwadiegwu <br/> Emmanuel</h1>
 
-        <p class="title">Web developer</p>
+        <p class="title">Fullstack Blockchain Developer<br/>Lisk, Arbitrum, Solidity, Thirdweb</p>
       </div>
 
       <button class="info_more-btn" data-sidebar-btn>

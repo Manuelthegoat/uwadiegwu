@@ -50,8 +50,7 @@ const Home = () => {
               front-end developer. With a strong background in web development
               and a passion for creating intuitive user experiences.<br/> I believe
               my skills can bring tremendous value to your company. I have
-              extensive experience in frontend development, with a major focus
-              on React.
+              extensive experience in frontend development
             </p>
           </section>
 
@@ -127,10 +126,10 @@ const Home = () => {
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Ecommerce</h4>
+                  <h4 class="h4 service-item-title">Blockchain Development</h4>
 
                   <p class="service-item-text">
-                    High-quality development of sites at the professional level.
+                    Web3 integration into applications making them decentralized
                   </p>
                 </div>
               </li>
