@@ -24,14 +24,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_skiz1ej", // Replace with your EmailJS service ID
-        "template_hufqcnd", // Replace with your EmailJS template ID
+        "service_skiz1ej", // EmailJS service ID
+        "template_hufqcnd", // EmailJS template ID
         {
           fullname: formData.fullname,
           email: formData.email,
           message: formData.message
         },
-        "gEloG2FPZ44AIqbO5" // Replace with your EmailJS user ID
+        "gEloG2FPZ44AIqbO5" // EmailJS user ID
       )
       .then(
         (response) => {

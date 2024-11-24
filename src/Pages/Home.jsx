@@ -40,17 +40,31 @@ const Home = () => {
 
         <article class="about  active" data-page="about">
           <header>
-            <h2 class="h2 article-title">About me</h2>
+            <h2 class="h2 article-title">About Me</h2>
           </header>
 
           <section class="about-text">
             <p>
-              Hello! My name is Uwadiegwu Emmanuel, fondly known as manuel, and
-              I'm thrilled to have the opportunity to introduce myself as a
-              front-end developer. With a strong background in web development
-              and a passion for creating intuitive user experiences.<br/> I believe
-              my skills can bring tremendous value to your company. I have
-              extensive experience in frontend development
+              Hi there! I'm Uwadiegwu Emmanuel, also known as Manuel, a
+              passionate full-stack developer with a knack for creating
+              innovative web and blockchain applications. With extensive
+              experience in <strong>React.js</strong>, <strong>Next.js</strong>,{" "}
+              <strong>Solidity</strong>, and blockchain technologies like{" "}
+              <strong>Arbitrum</strong>, I specialize in designing and deploying
+              robust decentralized applications.
+              <br />
+              <br />
+              Recently, I've worked on projects such as a{" "}
+              <em>smart contract-based task escrow system</em> and a{" "}
+              <em>decentralized identity verification solution</em>. I'm also
+              skilled in backend API development with <strong>Node.js</strong>,
+              bringing seamless integrations and dynamic functionalities to
+              life.
+              <br />
+              <br />
+              I'm excited about leveraging my skills to create impactful
+              solutions that redefine user experiences and drive innovation in
+              the tech space.
             </p>
           </section>
 
