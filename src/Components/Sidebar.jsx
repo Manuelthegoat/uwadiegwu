@@ -100,7 +100,7 @@ const Sidebar = () => {
         </li>
 
         <li class="social-item">
-          <a href="https://twitter.com/21issavage" target='_blank' class="social-link">
+          <a href="https://twitter.com/0xmtg" target='_blank' class="social-link">
             <ion-icon name="logo-twitter"></ion-icon>
           </a>
         </li>
