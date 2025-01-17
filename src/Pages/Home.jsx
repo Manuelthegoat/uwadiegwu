@@ -60,11 +60,6 @@ const Home = () => {
               skilled in backend API development with <strong>Node.js</strong>,
               bringing seamless integrations and dynamic functionalities to
               life.
-              <br />
-              <br />
-              I'm excited about leveraging my skills to create impactful
-              solutions that redefine user experiences and drive innovation in
-              the tech space.
             </p>
           </section>
 
@@ -83,14 +78,32 @@ const Home = () => {
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+                  <h4 class="h4 service-item-title">Frontend development</h4>
 
                   <p class="service-item-text">
-                    High-quality development of sites at the professional level.
+                  Professional-grade frontend development for high-quality web apps.
                   </p>
                 </div>
               </li>
 
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                  "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Blockchain Development</h4>
+
+                  <p class="service-item-text">
+                    Web3 integration into applications making them decentralized
+                  </p>
+                </div>
+              </li>
               <li class="service-item">
                 <div class="service-icon-box">
                   <img
@@ -101,11 +114,10 @@ const Home = () => {
                 </div>
 
                 <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+                  <h4 class="h4 service-item-title">Backend Development</h4>
 
                   <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
+                  Robust and scalable backend development for seamless functionality.
                   </p>
                 </div>
               </li>
@@ -129,38 +141,10 @@ const Home = () => {
                 </div>
               </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                  "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Blockchain Development</h4>
-
-                  <p class="service-item-text">
-                    Web3 integration into applications making them decentralized
-                  </p>
-                </div>
-              </li>
+            
             </ul>
           </section>
-          <section class="about-text">
-            <p>
-              I possess a deep understanding of the React and Next js ecosystem,
-              including React Router, Redux, and React Hooks. My expertise
-              extends to HTML, CSS, and JavaScript, React Native and so on
-              allowing me to build responsive and visually appealing user
-              interfaces. Additionally, I'm proficient in modern frontend tools
-              and libraries like Tailwind, Bootstrap webpack, Babel, and CSS
-              preprocessors, which enable me to streamline the development
-              process and enhance performance.
-            </p>
-          </section>
+        
 
           {/*  <section class="testimonials">
             <h3 class="h3 testimonials-title">Testimonials</h3>

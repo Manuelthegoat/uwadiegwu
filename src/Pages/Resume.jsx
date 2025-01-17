@@ -119,7 +119,7 @@ const Resume = () => {
             <span>2022 — 2023</span>
 
             <p class="timeline-text">
-              Codefunky Worldwide
+              Codefunky
             </p>
           </li>
         </ol>
@@ -131,14 +131,14 @@ const Resume = () => {
         <ul class="skills-list content-card">
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5">Web Development</h5>
+              <h5 class="h5">Frontend Development</h5>
               <data value="80">80%</data>
             </div>
 
             <div class="skill-progress-bg">
               <div
                 class="skill-progress-fill"
-                style={{ width: "80%" }}
+                style={{ width: "95%" }}
               ></div>
             </div>
           </li>
@@ -166,7 +166,20 @@ const Resume = () => {
             <div class="skill-progress-bg">
               <div
                 class="skill-progress-fill"
-                style={{ width: "50%" }}
+                style={{ width: "90%" }}
+              ></div>
+            </div>
+          </li>
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Blockchain Development</h5>
+              <data value="50">50%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div
+                class="skill-progress-fill"
+                style={{ width: "60%" }}
               ></div>
             </div>
           </li>

@@ -6,6 +6,21 @@ export const dummydata = [
         link: "/"
     },
     {
+        image: require("./assets/images/sabi.png"),
+        projectTitle: "Sabiplex",
+        projectCategory: "NextJS, Clerk",
+        link: "https://sabiplexapp.vercel.app/",
+        githubLink: "https://github.com/Manuelthegoat/sabiplex-next"
+    },
+    {
+        image: require("./assets/images/iden.png"),
+        projectTitle: "Identifii",
+        projectCategory: "Solidity, NextJS, Prima",
+        link: "https://oppblockidentifii.vercel.app/",
+        githubLink: "https://github.com/Manuelthegoat/IdentiFii-Blockathon"
+    },
+    
+    {
         image: require("./assets/images/project-5.png"),
         projectTitle: "Salinaka Eyecare",
         projectCategory: "Fullstack Ecommerce (react)",

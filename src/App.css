@@ -6,3 +6,21 @@
     color: red;
     padding-top: 1rem;
 }
+.project-item-icon-box{
+    display: flex;
+    gap: 20px;
+}
+.project-item-icon-box .text ion-icon {
+    margin-left: 8px; /* Adjust spacing as needed */
+  }
+
+  .project-item-icon-box a {
+    color: inherit; /* Prevent link color from affecting the icons */
+    text-decoration: none; /* Remove underline, if any */
+  }
+  
+  .project-item-icon-box ion-icon {
+    font-size: 1.5rem; /* Adjust size if necessary */
+    vertical-align: middle; /* Align the icons properly */
+  }
+  
