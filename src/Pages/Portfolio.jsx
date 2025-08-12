@@ -84,34 +84,47 @@ const Portfolio = () => {
             </div>
 
             <ul className="project-list">
-  {dummydata.map((item) => (
-    <li
-      className="project-item active"
-      data-filter-item
-      data-category={item.projectCategory.toLowerCase()}
-      key={item.projectTitle}
-    >
-      <a>
-        <figure className="project-img">
-          <div className="project-item-icon-box">
-            {/* Eye icon links to the preview */}
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <ion-icon name="eye-outline"></ion-icon>
-            </a>
-            {/* GitHub icon links to the GitHub repo */}
-            <a href={item.githubLink} target="_blank" rel="noopener noreferrer">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </div>
-          <img src={item.image} alt={item.projectTitle} loading="lazy" />
-        </figure>
-        <h3 className="project-title">{item.projectTitle}</h3>
-        <p className="project-category">{item.projectCategory}</p>
-      </a>
-    </li>
-  ))}
-</ul>
-
+              {dummydata.map((item) => (
+                <li
+                  className="project-item active"
+                  data-filter-item
+                  data-category={item.projectCategory.toLowerCase()}
+                  key={item.projectTitle}
+                >
+                  <a>
+                    <figure className="project-img">
+                      <div className="project-item-icon-box">
+                        {/* Eye icon links to the preview */}
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <ion-icon name="eye-outline"></ion-icon>
+                        </a>
+                        {/* GitHub icon links to the GitHub repo */}
+                        {item.githubLink && (
+                          <a
+                            href={item.githubLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <ion-icon name="logo-github"></ion-icon>
+                          </a>
+                        )}
+                      </div>
+                      <img
+                        src={item.image}
+                        alt={item.projectTitle}
+                        loading="lazy"
+                      />
+                    </figure>
+                    <h3 className="project-title">{item.projectTitle}</h3>
+                    <p className="project-category">{item.projectCategory}</p>
+                  </a>
+                </li>
+              ))}
+            </ul>
           </section>
         </article>
       </div>
