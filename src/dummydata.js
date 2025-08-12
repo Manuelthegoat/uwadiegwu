@@ -8,13 +8,14 @@ export const dummydata = [
     // githubLink: "https://github.com/Olatoyan/link-sharing-app",
   },
   {
-    image: require("./assets/images/assure.webp"),
-    projectTitle: "Assure Website -for Assure",
-    projectCategory: "NextJS, Typescript",
-    desc: "Assure is a virtual care delivery to empower both patients and clinicians.",
-    link: "https://forassure.com/",
+    image: require("./assets/images/jikoo.webp"),
+    projectTitle: "Jikoo Website",
+    projectCategory: "NextJS, Typescript, TailwindCSS",
+    desc: "Jikoo connects you to the finest restaurants, delivering delicious meals to your doorstep with ease.",
+    link: "https://jikoo-landing-page.vercel.app/",
     // githubLink: "https://github.com/Olatoyan/link-sharing-app",
   },
+
   {
     image: require("./assets/images/connect-four.webp"),
     projectTitle:
@@ -25,11 +26,11 @@ export const dummydata = [
     // githubLink: "https://github.com/Olatoyan/link-sharing-app",
   },
   {
-    image: require("./assets/images/jikoo.webp"),
-    projectTitle: "Jikoo Website",
-    projectCategory: "NextJS, Typescript, TailwindCSS",
-    desc: "Jikoo connects you to the finest restaurants, delivering delicious meals to your doorstep with ease.",
-    link: "https://jikoo-landing-page.vercel.app/",
+    image: require("./assets/images/assure.webp"),
+    projectTitle: "Assure Website -for Assure",
+    projectCategory: "NextJS, Typescript",
+    desc: "Assure is a virtual care delivery to empower both patients and clinicians.",
+    link: "https://forassure.com/",
     // githubLink: "https://github.com/Olatoyan/link-sharing-app",
   },
   {
